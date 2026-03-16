@@ -44,6 +44,7 @@ jobs:
         path: |
           ./*.nvda-addon
           ./*.pot
+        archive: false
 
   upload_release:
     runs-on: ubuntu-latest
