@@ -64,10 +64,12 @@ jobs:
       uses: actions/download-artifact@v8
       with:
         name: packaged_addon
+        path: .
     - name: download translation template file
       uses: actions/download-artifact@v8
       with:
         name: translation_template
+        path: .
 
     - name: Display structure of downloaded files
       run: ls -R
